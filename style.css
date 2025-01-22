@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(86, 86, 86);
+  padding-left: 275rem;
+  padding-right: 275rem;
+}
+
+.container {
+  margin: 40rem auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 3rem black solid;
+  padding-bottom: 20rem;
+  width: 100%;
+  margin-bottom: 15rem;
+}
+
+h1 {
+  font-size: 40rem;
+  margin-bottom: 10rem;
+  color: white;
+}
+
+.boxBtn {
+  margin-top: 5rem;
+  font-size: 35em;
+  font-weight: bold;
+  background-color: white;
+  border: 5rem rgb(0, 0, 0) solid;
+  padding: 5rem 15rem 5rem 15rem;
+}
+
+.boxBtn:hover {
+  background-color: rgb(186, 186, 186);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  background-color: rgb(234, 234, 234);
+  padding: 15rem 35rem 15rem 35rem;
+  border-radius: 5rem;
+  margin-bottom: 10rem;
+  border: 3rem solid black;
+}
+
+.removeBtn {
+  background-color: red;
+  border-radius: 5rem;
+  margin-left: 10rem;
+}
+
+.removeBtn:hover {
+  background-color: rgb(180, 11, 11);
+}
+
+.trash {
+  width: 70rem;
+  padding: 5rem 8rem 5rem 8rem;
+}
+
+.plusBtn,
+.minusBtn {
+  font-size: 57rem;
+  padding: 1rem 12rem 1rem 12rem;
+  border: 2rem black solid;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5rem;
+}
+
+.plusBtn:hover,
+.minusBtn:hover {
+  background-color: rgb(187, 187, 187);
+}
+
+.spanNumber {
+  font-size: 65rem;
+}
